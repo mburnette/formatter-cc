@@ -1,6 +1,6 @@
 ## Unofficial formatter.js Credit Card Plugin
 
-This plugin extends the (formatter.js by firstopinion)[http://firstopinion.github.io/formatter.js/] jQuery plugin to easily handle credit card patterns.
+This plugin extends the [formatter.js by firstopinion](http://firstopinion.github.io/formatter.js/) jQuery plugin to easily handle credit card patterns.
 
 Unfortunately, American Express uses a pattern of 4 digits, 6 digits, and 6 digits. This breaks the pattern used by the other 3 major card companies of 4 sets of 4, so some logic needs to be in place to switch between patterns.
 
@@ -10,7 +10,7 @@ Unfortunately, the same applies to CCV numbers. AmEx uses 4 digits while the res
 
 ### Demo
 
-See a (demo of the credit card formatting)[http://www.mburnette.com/demos/formatter-cc/]
+See a [demo of the credit card formatting](http://www.mburnette.com/demos/formatter-cc/)
 
 ### Usage
 
