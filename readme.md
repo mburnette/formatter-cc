@@ -33,3 +33,9 @@ Format Credit Card Input
 Format Credit Card CCV Input
 
 	$('#ccv').formatterccv({ cctypefield: '#cctype' });
+
+#### Marcus D. Burnette
+
+	[Website](http://www.mburnette.com/)
+
+	@marcusdburnette on Twitter
