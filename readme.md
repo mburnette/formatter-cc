@@ -24,7 +24,7 @@ To initiate the formatting, simply run the **formattercc()** function on your cr
 
 *IMPORTANT:* You MUST specify the select field (by ID) that contains the options for which card type is being used.
 
-## Examples
+### Examples
 
 Format Credit Card Input
 
