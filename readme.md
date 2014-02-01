@@ -22,7 +22,7 @@ To use the plugin extension, just include the script after the jQuery.js and for
 
 To initiate the formatting, simply run the **formattercc()** function on your credit card input field. You can optionally initiate the CCV formatting by running the **formatterccv()** function on your CCV input field (note the 'v' in this function).
 
-*IMPORTANT:* You MUST specify the select field (by ID) that contains the options for which card type is being used.
+**IMPORTANT:** You MUST specify the select field (by ID) that contains the options for which card type is being used.
 
 ### Examples
 
