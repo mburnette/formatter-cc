@@ -10,14 +10,14 @@ jQuery.fn.formattercc = function(options){
 
 
 	var ccType,
-		cctypeselect = $(config.cctypefield),
+		cctypeselect = jQuery(config.cctypefield),
 				
 		stdPtrn = '{{9999}} {{9999}} {{9999}} {{9999}}',
 		amexPtrn = '{{9999}} {{999999}} {{99999}}';
 
 	this.focus(function(){
 		
-		var elcc = $(this);
+		var elcc = jQuery(this);
 		ccType = cctypeselect.find('option:selected').text();
 		
 		elcc.formatter({ 'pattern': stdPtrn });
@@ -46,14 +46,14 @@ jQuery.fn.formatterccv = function(options){
 
 
 	var ccType,
-		cctypeselect = $(config.cctypefield),
+		cctypeselect = jQuery(config.cctypefield),
 				
 		stdCCV = '{{999}}',
 		amexCCV = '{{9999}}';
 
 	this.focus(function(){
 		
-		var elccv = $(this);
+		var elccv = jQuery(this);
 		ccType = cctypeselect.find('option:selected').text();
 		
 		elccv.formatter({ 'pattern': stdCCV });
