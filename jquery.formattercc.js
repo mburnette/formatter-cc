@@ -13,7 +13,7 @@ jQuery.fn.formattercc = function(options){
 		cctypeselect = $(config.cctypefield),
 				
 		stdPtrn = '{{9999}} {{9999}} {{9999}} {{9999}}',
-		amexPtrn = '{{9999}} {{999999}} {{999999}}';
+		amexPtrn = '{{9999}} {{999999}} {{99999}}';
 
 	this.focus(function(){
 		
